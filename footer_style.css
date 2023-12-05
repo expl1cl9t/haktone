@@ -1,0 +1,63 @@
+footer {
+	color: black;
+}
+.footer {
+	padding: 50px 30px 50px 30px;
+	display: flex;
+	justify-content: center;
+}
+.logo_social_networks {
+	width: 330px;
+}
+.team {
+	display: flex;
+}
+.team p{
+	margin-left: 20px;
+	font-size: 30px;
+	color: rgba(93, 90, 136, 1);
+}
+.social_networks_ul {
+	display: flex;
+}
+.social_networks_ul li {
+	padding-right: 10px;
+}
+.footer_menu {
+	display: flex;
+}
+.footer_menu_ul {
+	display: flex;
+}
+.footer_menu_ul li {
+	font-size: 20px;
+	padding-right: 30px;
+}
+.lorem {
+	font-size: 16px;
+	line-height: 25px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.footer_menu_ul_ul {
+	margin-top: 39px;
+}
+.footer_menu_ul_ul li {
+	color: rgba(151, 149, 181, 1);
+	font-size: 16px ;
+	margin-top: 10px;
+	margin-bottom: 8px;
+}
+
+.hr {
+	border-top: 1px solid grey ;
+	margin: 0px 150px 0px 150px;
+	padding-bottom: 20px;
+}
+.fooder {
+	padding: 20px 0px 40px 0px;
+	text-align: center;
+}
+.blue {
+	color: rgba(93, 90, 136, 1);
+}
