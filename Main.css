@@ -265,12 +265,20 @@ background: linear-gradient(rgba(33, 37, 47, 1), rgba(65, 84, 107, 1));
 .ul_menu li:last-child{
 	padding-right: 0px;
 }
+li {
+	list-style-type: none;
+}
+.teamlogo {
+	min-width: 40px;
+	min-height: 40px;
+}
 .inner_li {
-	padding: 47px 56px 17px 21px;
+	padding: 40px 56px 17px 21px;
 	color: black;
 	height: 300px;
 	width: 336px;
 	background-color: white;
+	align-content: center;
 }
 .inner_li_info > img {
 	margin-left: -21px;
@@ -352,12 +360,14 @@ color: black; }
 	margin-left: 19px;
 }
 
-
-.amazing_near_photo {
+.blur {
+	z-index: -1;
+	position: absolute;
 	background-image: url('imgsrc/fantastic-wonderland-forest-landscape-with-mushrooms-and-flowers-ai-generative.jpg');
-	background-size: 100% auto;
+	background-size: cover;
 	height: 950px;
 	width: 100%;
+	transition: all 0.4s ease;
 }
 
 
@@ -649,6 +659,7 @@ color: black; }
 	height: 600px;
 	border-radius: 24px;
 	z-index: 3;
+	transition: all 0.4s ease;
 }
 .by_order_menu_elem1_img {
 	margin-top: 20px;
@@ -673,6 +684,7 @@ color: black; }
 	z-index: 2;
 	margin-left: -30px;
 	margin-top: 30px;
+	transition: all 0.4s ease;
 }
 .by_order_menu_elem2 img {
 	display: flex;
@@ -739,4 +751,15 @@ color: black; }
 }
 .by_order_menu_elem2_img img:first-child{
 	margin-left: 0px;
+}
+.blur-effect {
+    filter: blur(5px);
+}
+.to_book {
+	margin-top: 30px;
+}
+
+.selected {
+	margin-bottom: 1px;
+	border-bottom: 1px solid white;
 }

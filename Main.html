@@ -9,11 +9,22 @@
 	<link href="https://fonts.googleapis.com/css2?family=Jura:wght@400;500&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="Main.css">
 	<link rel="stylesheet" href="Header_style.css">
+
+<!-- Фавикон -->
+	<link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+	<link rel="manifest" href="favicons/site.webmanifest">
+	<link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+<!-- Фавикон -->
+
 	<link rel="stylesheet" type="text/css" href="footer_style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script src="https://code.jquery.com/jquery-3.7.1.js"
 		integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
-	<title>Document</title>
+	<title>Курортный Край</title>
 </head>
 <body>
 
@@ -22,8 +33,8 @@
 		<div class="header_left_menu">
 
 			<ul class="header_left_menu_ul">
-				<li class="underline-animation"><a href="">Подробнее</a></li>
-				<li class="underline-animation"><a href="">Отзывы</a></li>
+			 <li class="underline-animation" ><a href=#infodumping>Подробнее</a></li>
+				<li class="underline-animation" ><a href="#rewiews">Отзывы</a></li>
 			</ul>
 
 		</div>
@@ -46,8 +57,8 @@
 		<div class="header_right_menu">
 
 			<ul class="header_right_menu_ul">
-				<li class="underline-animation"><a href="">Поиск</a></li>
-				<li class="underline-animation"><a href="">Информация</a></li>
+				<li class="underline-animation" ><a href="#search">Поиск</a></li>
+				<li class="underline-animation" ><a href="#about">Информация</a></li>
 			</ul>
 
 		</div>
@@ -126,10 +137,10 @@
 
 						<ul class="amazing_near_menu_ul">
 
-							<li class="b underline-animation" season="z">Зима</li>
-							<li class="b underline-animation b" season="v">Весна</li>
-							<li class="b underline-animation b" season="l">Лето</li>
-							<li class="b underline-animation b" season="o">Осень</li>
+                		<li class="b underline-animation" season="z">Зима</li>
+                		<li class="b underline-animation b" season="v">Весна</li>
+                		<li class="b underline-animation b" season="l">Лето</li>
+                		<li class="b underline-animation b" season="o">Осень</li>
 
 						</ul>
 
@@ -157,7 +168,7 @@
 
 			</div>
 
-			<div class="ul_menu">
+			<div class="ul_menu" id="rewiews">
 
 				<li>
 
@@ -208,7 +219,7 @@
 
 							<img  height="145" src="img/Main_top.png" alt="">
 
-							<p class="mark">"Пейзажи на курорте восхитительны: горы, леса и озера создают идеальную картину для расслабленного и комфортного отдыха</p>
+							<p class="mark">Пейзажи на курорте восхитительны: горы, леса и озера создают идеальную картину для расслабленного и комфортного отдыха</p>
 
 						</div>
 
@@ -281,6 +292,8 @@
 		<div class="amazing_near_photo">
 
 
+			<div class="blur" id="search"></div>
+
 			<div class="amazing_near_photo_main_information">
 
 					<img class="treangle_left" src="img/Left_tri.png" alt="">
@@ -293,31 +306,14 @@
 					достопримечательностей, а также советы по выбору размещения, питанию и развлечениям.
 				</p>
 
-				<p class="give_info"><button>Узнать об этом больше</button> <img class="lope" src="img/lope.png" alt=""></p>
+				<p class="give_info"><button id="infoButton">Узнать об этом больше</button> <img class="lope" src="img/lope.png" alt=""></p>
 
 				<p class="amazing_near_footer">При поддержке <br> "ККЭП"</p>
 			</div>
 
 		</div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-		<div class="to_book">
+		<div class="to_book" id="about">
 
 			<img src="img/mini_logo_sky.png" alt="">
 			<p>Курортный край</p>
@@ -342,8 +338,6 @@
 				<div class="to_book_menu_slider">
 
 					<img class="border" height="300px" width="500x" class="to_book_menu_slider_img1" src="imgsrc/natural-landscape-with-sunrise.jpg" alt="">
-					<img class="to_book_menu_slider_img2" src="img/Main_top2.png" alt="">
-					<img class="to_book_menu_slider_img3" src="img/Main_top3.png" alt="">
 
 					<p class="to_book_menu_slider_img1_circle"></p>
 					<p class="to_book_menu_slider_img2_circle"></p>
@@ -423,7 +417,7 @@
 
 					</div>
 
-				<div class="by_order_menu">
+				<div class="by_order_menu" id="infodumping">
 
 					<div class="by_order_menu_elem1">
 						<p class="forty">Узнайте!</p>
@@ -479,14 +473,13 @@
 
 				<div class="team">
 
-					<img src="img/footer_logo.png" alt="">
+					<img class="teamlogo" src="img/mini_logo_black.png" alt="">
 
 					<p>SFTA Team</p>
 
 				</div>
 
-				<p class="lorem">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-				   Illo ipsum suscipit
+				<p class="lorem">Спасибо, что выбрали курорты Краснодарского края для вашего отдыха! Мы надеемся, что наш вебсайт станет вашим надежным помощником в планировании незабываемого отпуска.
 		      </p>
 
 		      <div class="social_networks">
@@ -510,44 +503,21 @@
 
 				<ul class="footer_menu_ul">
 
-					<li> <p class="blue">Продукты</p>
+					<li> <p class="blue">Разработчики</p>
 						<ul class="footer_menu_ul_ul">
-							<li>Особенности</li>
-							<li>Ценообразование</li>
-							<li>Тематические исследования</li>
-							<li>Обзоры</li>
-							<li>Обновления</li>
+							<li>Кравец Дана</li>
+							<li>Коновалов Владимир</li>
+							<li>Гладков Матвей</li>
 						</ul>
 					</li>
 
-					<li> <p class="blue">Компания</p>
-						<ul class="footer_menu_ul_ul">
-							<li>О нас</li>
-							<li>Связаться с нами</li>
-							<li>Карьера</li>
-							<li>Культура</li>
-							<li>Блог</li>
-						</ul>
+					<li> <p class="blue">Политика конфиденциальности.</p>
 					</li>
 
-					<li> <p class="blue">Поддержка</p>
-						<ul class="footer_menu_ul_ul">
-							<li>Приступая к работе</li>
-							<li>Справочный центр</li>
-							<li>Состояние сервера</li>
-							<li>Сообщить об ошибке</li>
-							<li>Поддержка чата</li>
-						</ul>
+					<li> <p class="blue">Условия использования.</p>
 					</li>
 
-					<li> <p class="blue">Установить</p>
-						<ul class="footer_menu_ul_ul">
-							<li>iOS</li>
-							<li>Android</li>
-							<li>Mac</li>
-							<li>Windows</li>
-							<li>Chrome</li>
-						</ul>
+					<li> <p class="blue">Контакты.</p>
 					</li>
 
 				</ul>
@@ -560,15 +530,39 @@
 
 		<div class="fooder">
 
-			<p>Copyright © 2023 SFTA Team | All Rights Reserved | Terms and Conditions | Privacy Policy</p>
+			<p>Copyright © 2023 SFTA Team | Курорты Краснодарского края. Все права защищены.   </p>
 
 		</div>
 	</footer>
 
 
 
+<script>
+  let seasonImages = {
+    z: 'imgsrc/beautiful-scenery-of-the-summit-of-mount-everest-covered-with-snow-under-the-white-clouds.jpg',
+    v: 'imgsrc/aerial-photography-of-houses-on-green-field-viewing-mountain-under-white-and-gray-sky-during-daytime_400718-49.jpg',
+    l: 'imgsrc/лето и арбалеты.jpg',
+    o: 'imgsrc/beautiful-shot-of-mountains-under-a-cloudy-sky-at-sunset.jpg'
+  };
+  let listItems = document.querySelectorAll('.amazing_near_menu_ul li');
 
+  listItems.forEach(function (item) {
+    item.addEventListener('click', function () {
+
+      listItems.forEach(function (li) {
+        li.classList.remove('selected');
+      });
+
+      item.classList.add('selected');
+
+      let season = item.getAttribute('season');
+
+      document.getElementById('seasonImage').src = seasonImages[season];
+    });
+  });
+</script>
 </body>
+
 <script src="js/fadeHeader.js"></script>
 <script src="js/changeSeason.js"></script>
 </html>
