@@ -162,7 +162,7 @@ main {
 }
 .absolute4 {
 	margin-top: 290px;
-	margin-left: 260px;	
+	margin-left: 260px;
 }
 
 
@@ -349,12 +349,12 @@ color: black; }
 	margin-right: 1px;
 	font-size: 40px;
 	margin-bottom: 5px;
-	margin-left: 19px;     
+	margin-left: 19px;
 }
 
 
 .amazing_near_photo {
-	background-image: url('img/Main_photo.png');
+	background-image: url('imgsrc/fantastic-wonderland-forest-landscape-with-mushrooms-and-flowers-ai-generative.jpg');
 	background-size: 100% auto;
 	height: 950px;
 	width: 100%;
@@ -434,6 +434,7 @@ color: black; }
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	padding-bottom: 10vh;
 }
 
 .to_book > p {
@@ -453,6 +454,7 @@ color: black; }
 	margin-right: 50px;
 	padding-top: 10px;
 	border-radius: 10px;
+	padding-right: 30px;
 	width: 300px;
 	height: 300px;
 	background: linear-gradient(45deg, rgba(70, 84, 108, 1),rgba(121, 137, 165, 1));
@@ -465,6 +467,7 @@ color: black; }
 	display: flex;
 	align-items: center;
 	margin-bottom: -50px;
+	min-width: 10px;
 }
 .rotate {
 	margin-left: 100px;
@@ -472,10 +475,12 @@ color: black; }
 }
 .to_book_menu_slider {
 	margin-right: 50px;
+	padding-bottom: 30px;
 }
 .border {
 	margin-top: 30px;
 	border-radius: 10px;
+	height: 350px;
 }
 .to_book_menu_advantages {
 	margin-left: -200px;
@@ -573,6 +578,7 @@ color: black; }
 	margin-left: 60px;
 	border-radius: 40px;
 	margin-top: 80px;
+	margin-bottom: 30px;
 	transition: all 0.4s ease;
 }
 .button_list button {
@@ -589,17 +595,19 @@ color: black; }
 .button_list:hover {
 	box-shadow: 3px 5px 0px 0px grey;
 }
-
+.image-holder{
+	margin: 0 auto;
+	padding-left: 250px;
+}
 
 .by_order {
+	margin: 0 auto;
 	margin-top: 40px;
 	background-size: cover;
 	width: 100%;
-	background-image: url('img/triangle.png');
 }
 .by_order_menu {
 	height: 880px;
-	background-color: rgba(0, 0, 0, 0.6);
 }
 .uzor1 {
 	margin-left: -25px;
@@ -609,7 +617,6 @@ color: black; }
 	justify-content: center;
 	align-items: center;
 	height: 35px;
-	background-color: rgba(0, 0, 0, 0.6);
 	padding-bottom: 20px;
 }
 .amazing_near_footer_line111 {
@@ -623,17 +630,16 @@ color: black; }
 	margin-top: 5px;
 }
 .treangle_left1 {
+	padding-top: 10vh;
 	position: absolute;
-	margin-top: 80px;
-	margin-left: 100px;
-	margin-right: 100px;
+	margin: 0 auto;
 	z-index: 0;
 }
 .by_order_menu {
 	padding-top: 100px;
-	padding-left: 300px;
+	padding-left: 50vh;
 	display: flex;
-
+ 	margin: 0 auto;
 }
 
 .by_order_menu_elem1 {
@@ -651,7 +657,9 @@ color: black; }
 	margin-bottom: 40px;
 }
 .by_order_menu_elem1_img img {
-	margin-left: 60px;
+	max-width: 100px;
+	max-height: 150px;
+	margin-left: 150px;
 }
 .by_order_menu_elem1_img img:first-child{
 	margin-left: 0px;
@@ -666,8 +674,13 @@ color: black; }
 	margin-left: -30px;
 	margin-top: 30px;
 }
-.by_order_menu_elem2_img {
+.by_order_menu_elem2 img {
 	display: flex;
+	margin-left: 100px;
+	margin-right: 100px;
+	max-width: 100px;
+	max-height: 150px;
+	margin-left: 150px;
 }
 .forty {
 	font-size: 40px;
@@ -694,7 +707,11 @@ color: black; }
 	margin-top: 80px;
 	margin-left: 50px;
 }
-
+.info-holder {
+	margin: 0 auto;
+	background-image: url(imgsrc/beautiful-scenery-of-the-summit-of-mount-everest-covered-with-snow-under-the-white-clouds.jpg);
+	background-size: cover;
+}
 .buy_book1 button:hover{
 	box-shadow: 3px 5px 0px 0px rgba(37, 137, 170, 1);
 }
